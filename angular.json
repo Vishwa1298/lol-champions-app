@@ -21,12 +21,15 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "src/assets",
+                "output": "/assets"
               }
             ],
-            "styles": [
-              "src/styles.css"
-            ]
+           "styles": [
+  "node_modules/ag-grid-community/styles/ag-grid.css",
+  "node_modules/ag-grid-community/styles/ag-theme-alpine.css",
+  "src/styles.css"
+]
           },
           "configurations": {
             "production": {
